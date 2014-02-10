@@ -26,7 +26,7 @@ You are going to be able to modify this a bit if you like but the overall conten
 
 ##Creating Your Repository
 
-Because the folder structure of this repository won't be the same as for your project I suggest NOT forking this but instead using the content to make a repository of your own. One option is to 
+Because the folder structure of this repository won't be the same as for your project I suggest NOT forking this but instead using the content to make a repository of your own. One option is to download the files separately and then use them with a new repository like this:
 
 1. Use the **Download Zip** link and download the files from here to a local computer. Unzip the files and keep as a reference.
 2. Create a blank repository on GitHub.com
