@@ -1,0 +1,85 @@
+*, *:before, *:after
+{
+-moz-box-sizing: border-box; -webkit-box-sizing;
+}
+
+body {
+width:96%;
+margin:0 auto;
+border:1px solid #666;
+background-color: #E0E0E0;
+}
+
+.track{
+	width:86%;
+	background-color: #E0E0E0;
+	padding: 10px
+	;
+}
+
+.session {
+margin:auto;
+width:86%;
+background-color:red;
+;
+}
+
+h1
+
+	{	
+		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
+		font-size:30px;
+		font-weight: normal;
+		color:black;
+		text-align:justify;
+		text-indent:0px;
+		text-decoration:none;
+	}
+
+h2
+
+	{	
+		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
+		font-size:25px;
+		font-weight: normal;
+		color:black;
+		text-align:justify;
+		text-indent:0px;
+		text-decoration:none;
+	}
+
+h3
+
+	{	
+		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
+		font-size:23px;
+		font-weight: normal;
+		color:black;
+		text-align:justify;
+		text-indent:0px;
+		text-decoration:none;
+	}
+	
+p
+	{	
+		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
+		font-size:16px;
+		font-weight: normal;
+		color:black;
+		text-align:justify;
+		text-indent:0px;
+		text-decoration:none;
+	}
+
+p.presenter
+
+	{	
+		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
+		font-size:18px;
+		font-weight: normal;
+		color:black;
+		text-align:justify;
+		text-indent:0px;
+		text-decoration:none;
+	}
+
