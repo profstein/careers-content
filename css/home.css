@@ -1,0 +1,206 @@
+*, *:before, *:after
+{
+-moz-box-sizing: border-box; -webkit-box-sizing;
+}
+
+body {
+width:96%;
+margin:0 auto;
+border:1px solid #000000;
+background-color: grey;
+}
+
+.conference
+{
+	margin:auto;
+	width:90%;
+	background-color: pink;
+	padding: 10px;
+	border:1px solid #000000;
+	;
+}
+
+.date
+{
+	margin:auto;
+	width:90%;
+	background-color:green;
+	border:1px solid #000000;
+}
+
+.location 
+{
+	margin:auto;
+	width:90%;
+	background-color:red;
+	border:1px solid #000000;
+}
+
+.map 
+{
+	margin:auto;
+	width:90%;
+	background-color:purple;
+	border:1px solid #000000;
+}
+
+.directions 
+{
+	margin:auto;
+	width:90%;
+	background-color:orange;
+	border:1px solid #000000;
+}
+
+.transport
+{
+	margin:auto;
+	width:98%;
+	background-color:navy;
+	border:1px solid #000000;
+}
+
+.commute
+{
+	margin:auto;
+	width:98%;
+	background-color:purple;
+	border:1px solid #000000;
+}
+
+.bus
+{
+	margin:auto;
+	width:98%;
+	background-color:pink;
+	border:1px solid #000000;
+}
+
+.path
+{
+	margin:auto;
+	width:98%;
+	background-color:yellow;
+	border:1px solid #000000;
+}
+
+.car
+{
+	margin:auto;
+	width:98%;
+	background-color:grey;
+	border:1px solid #000000;
+}
+
+/*
+	#header
+		{
+		width: 955.5px; 
+		height:105px;  
+		background-color: #006bb7;
+		}
+
+		h1.title 
+				{
+				margin: 0px; 
+				border-width: 0px; 
+				padding-top: 7px; 
+				padding-left: 30px; 
+				}
+	#navigation	
+	{ 
+	width: 955.5px; 
+	height:52px;	 
+	background-color: #f79239; 
+	}
+		a.mmp 
+		{
+		margin: 0px; 
+		border-width: 0px; 
+		padding-top: 5px; 
+		padding-left: 250px; 
+		}
+
+		a.vat 
+			{
+			margin: 0px; 
+			border-width: 0px; 
+			padding-top: 5px; 
+			padding-right: 300px; 
+			float:right;
+			}
+	#logo 		
+			{
+			width: 344.5px; height: 157px; background-color: #f79239; float:right; }
+	#logoh1 	{ width: 344.5px; height: 105px; background-color: #006bb7; float:right; }
+	#logoh2 	{ width: 344.5px; height: 52px;  background-color: #f79239; float:right; }
+	#collage 	{ width: 188.5px; height:611px;  background-color: #c5c6c8; float:left; }
+	#mainContent{ width:1111.5px; height:494px;  background-color: #c5c6c8; float:right; }
+			h2 	{margin: 0px; border-width: 0px; padding-top: 7px; padding-left: 50px; padding-right: 50px;}
+			p 	{margin: 0px; border-width: 0px; padding-top: 7px; padding-left: 50px; padding-right: 50px;}
+			ul	{margin: 0px; border-width: 0px; padding-top: 7px; padding-left: 150px; padding-right: 50px;}
+	#footer 	{ width:1111.5px; height:123.5px; background-color: #ff9639; float:right;}
+	#container 	{ width:1300px;   clear:both;    margin: 0 auto; }
+*/
+
+body		{ background-color: grey; }
+
+h1
+
+	{	
+		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
+		font-size:30px;
+		font-weight: normal;
+		color:blue;
+		text-align:justify;
+		text-indent:0px;
+		text-decoration:none;
+	}
+
+h2
+
+	{	
+		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
+		font-size:25px;
+		font-weight: normal;
+		color:green;
+		text-align:justify;
+		text-indent:0px;
+		text-decoration:none;
+	}
+
+h3
+
+	{	
+		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
+		font-size:23px;
+		font-weight: normal;
+		color:yellow;
+		text-align:justify;
+		text-indent:0px;
+		text-decoration:none;
+	}
+	
+p
+	{	
+		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
+		font-size:16px;
+		font-weight: normal;
+		color:black;
+		text-align:justify;
+		text-indent:0px;
+		text-decoration:none;
+	}
+
+p.presenter
+
+	{	
+		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
+		font-size:18px;
+		font-weight: normal;
+		color:black;
+		text-align:justify;
+		text-indent:0px;
+		text-decoration:none;
+	}
+
