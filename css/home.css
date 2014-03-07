@@ -4,92 +4,110 @@
 }
 
 body {
-width:96%;
+width:99%;
 margin:0 auto;
 border:1px solid #000000;
 background-color: grey;
 }
 
-.conference
+.header
 {
 	margin:auto;
-	width:90%;
+	width:99%;
 	background-color: pink;
 	padding: 10px;
 	border:1px solid #000000;
 	;
 }
 
-.date
+.navigation
 {
 	margin:auto;
-	width:90%;
+	width:99%;
 	background-color:green;
 	border:1px solid #000000;
+	clear: both;
 }
 
-.location 
+.row1 
 {
 	margin:auto;
-	width:90%;
+	width:99%;
 	background-color:red;
-	border:1px solid #000000;
+	border:1px solid orange;
+	clear: both;
 }
 
-.map 
+.row2 
 {
 	margin:auto;
-	width:90%;
+	width:99%;
 	background-color:purple;
-	border:1px solid #000000;
+	border:1px solid blue;
+	clear: both;
 }
 
-.directions 
+.about 
 {
 	margin:auto;
-	width:90%;
+	width:45%;
 	background-color:orange;
 	border:1px solid #000000;
+	float:left;
 }
 
-.transport
+.schedule
 {
 	margin:auto;
-	width:98%;
+	width:45%;
 	background-color:navy;
 	border:1px solid #000000;
+	float:right;
 }
 
-.commute
+.sessions
 {
 	margin:auto;
-	width:98%;
-	background-color:purple;
-	border:1px solid #000000;
-}
-
-.bus
-{
-	margin:auto;
-	width:98%;
+	width:30%;
 	background-color:pink;
 	border:1px solid #000000;
+	float: left;
 }
 
-.path
+.speakers
 {
 	margin:auto;
-	width:98%;
+	width:30%;
+	background-color:pink;
+	border:1px solid #000000;
+	float: left;
+}
+
+.videos
+{
+	margin:auto;
+	width:30%;
 	background-color:yellow;
 	border:1px solid #000000;
+	float: right;
 }
 
-.car
+.content
 {
 	margin:auto;
-	width:98%;
+	width:99%;
+	background-color:yellow;
+	border:1px solid #000000;
+	clear: both;
+}
+
+.footer
+{
+	margin:auto;
+	width:100%;
 	background-color:grey;
 	border:1px solid #000000;
+	clear: both;
 }
 
 /*
@@ -149,7 +167,7 @@ h1
 
 	{	
 		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
-		font-size:30px;
+		font-size:20px;
 		font-weight: normal;
 		color:blue;
 		text-align:justify;
@@ -173,7 +191,7 @@ h3
 
 	{	
 		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
-		font-size:23px;
+		font-size:12px;
 		font-weight: normal;
 		color:yellow;
 		text-align:justify;
