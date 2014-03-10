@@ -3,20 +3,32 @@
 -moz-box-sizing: border-box; -webkit-box-sizing;
 }
 
+									/*
+									= = = = = = = = = = = = = =
+									ALL PAGES TEMPLATE
+									= = = = = = = = = = = = = =
+									*/
+
 body {
 width:99%;
 margin:0 auto;
-border:1px solid #000000;
-background-color: grey;
+border:none;
+background-color: #808080;
 }
+
+/* 
+----------
+CONTAINERS STYLE
+----------
+*/
 
 .header
 {
 	margin:auto;
 	width:99%;
-	background-color: pink;
+	background-color: #808080;
 	padding: 10px;
-	border:1px solid #000000;
+	border: none;
 	;
 }
 
@@ -24,201 +36,224 @@ background-color: grey;
 {
 	margin:auto;
 	width:99%;
-	background-color:green;
-	border:1px solid #000000;
+	background-color: #D0D0D0;
+	border: none;
 	clear: both;
-}
-
-.row1 
-{
-	margin:auto;
-	width:99%;
-	background-color:red;
-	border:1px solid orange;
-	clear: both;
-}
-
-.row2 
-{
-	margin:auto;
-	width:99%;
-	background-color:purple;
-	border:1px solid blue;
-	clear: both;
+	padding-top: 3px;
 }
 
 .about 
 {
 	margin:auto;
-	width:45%;
-	background-color:orange;
-	border:1px solid #000000;
+	width:15%;
+	background-color: #D0D0D0;
+	border:none;
 	float:left;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	padding-left: 3px;
 }
 
 .schedule
 {
 	margin:auto;
-	width:45%;
-	background-color:navy;
-	border:1px solid #000000;
-	float:right;
+	width:23%;
+	background-color: #D0D0D0;
+	border: none;
+	float:left;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	padding-left: 3px;
 }
 
 .sessions
 {
 	margin:auto;
-	width:30%;
-	background-color:pink;
-	border:1px solid #000000;
+	width:23%;
+	background-color: #D0D0D0;
+	border:none;
 	float: left;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	padding-left: 3px;
 }
 
 .speakers
 {
 	margin:auto;
-	width:30%;
-	background-color:pink;
-	border:1px solid #000000;
+	width:23%;
+	background-color: #D0D0D0;
+	border:none;
 	float: left;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	padding-left: 3px;
 }
 
 .videos
 {
 	margin:auto;
-	width:30%;
-	background-color:yellow;
-	border:1px solid #000000;
-	float: right;
+	width:16%;
+	background-color: #D0D0D0;
+	border:none;
+	float: left;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	padding-left: 3px;
+	padding-right: 15px;
 }
 
 .content
 {
 	margin:auto;
 	width:99%;
-	background-color:yellow;
-	border:1px solid #000000;
+	background-color: #F0F0F0;
+	border:none;
 	clear: both;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
-
 .footer
 {
 	margin:auto;
-	width:100%;
-	background-color:grey;
-	border:1px solid #000000;
+	width:99%;
+	background-color: #808080;
+	border:none;
 	clear: both;
 }
 
-/*
-	#header
-		{
-		width: 955.5px; 
-		height:105px;  
-		background-color: #006bb7;
-		}
-
-		h1.title 
-				{
-				margin: 0px; 
-				border-width: 0px; 
-				padding-top: 7px; 
-				padding-left: 30px; 
-				}
-	#navigation	
-	{ 
-	width: 955.5px; 
-	height:52px;	 
-	background-color: #f79239; 
-	}
-		a.mmp 
-		{
-		margin: 0px; 
-		border-width: 0px; 
-		padding-top: 5px; 
-		padding-left: 250px; 
-		}
-
-		a.vat 
-			{
-			margin: 0px; 
-			border-width: 0px; 
-			padding-top: 5px; 
-			padding-right: 300px; 
-			float:right;
-			}
-	#logo 		
-			{
-			width: 344.5px; height: 157px; background-color: #f79239; float:right; }
-	#logoh1 	{ width: 344.5px; height: 105px; background-color: #006bb7; float:right; }
-	#logoh2 	{ width: 344.5px; height: 52px;  background-color: #f79239; float:right; }
-	#collage 	{ width: 188.5px; height:611px;  background-color: #c5c6c8; float:left; }
-	#mainContent{ width:1111.5px; height:494px;  background-color: #c5c6c8; float:right; }
-			h2 	{margin: 0px; border-width: 0px; padding-top: 7px; padding-left: 50px; padding-right: 50px;}
-			p 	{margin: 0px; border-width: 0px; padding-top: 7px; padding-left: 50px; padding-right: 50px;}
-			ul	{margin: 0px; border-width: 0px; padding-top: 7px; padding-left: 150px; padding-right: 50px;}
-	#footer 	{ width:1111.5px; height:123.5px; background-color: #ff9639; float:right;}
-	#container 	{ width:1300px;   clear:both;    margin: 0 auto; }
+/* 
+----
+TEXT STYLE
+----
 */
 
-body		{ background-color: grey; }
-
-h1
+a.nav	/*all - the navigation*/
 
 	{	
-		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
-		font-size:20px;
-		font-weight: normal;
-		color:blue;
-		text-align:justify;
-		text-indent:0px;
-		text-decoration:none;
-	}
-
-h2
-
-	{	
-		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
-		font-size:25px;
-		font-weight: normal;
-		color:green;
-		text-align:justify;
-		text-indent:0px;
-		text-decoration:none;
-	}
-
-h3
-
-	{	
-		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
 		font-size:12px;
 		font-weight: normal;
-		color:yellow;
-		text-align:justify;
-		text-indent:0px;
-		text-decoration:none;
-	}
-	
-p
-	{	
-		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
-		font-size:16px;
-		font-weight: normal;
-		color:black;
-		text-align:justify;
+		color: #990033;
+		text-align:center;
 		text-indent:0px;
 		text-decoration:none;
 	}
 
-p.presenter
+p.add1	/*all*/
 
 	{	
-		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
-		font-size:18px;
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:11px;
+		font-weight: normal;
+		color: #F8F8F8;
+		text-align:center;
+		text-indent:0px;
+		text-decoration:none;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		padding-top: 10px;
+	}
+
+p.add2	/*all*/
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:11px;
+		font-weight: normal;
+		color: #F8F8F8;
+		text-align:center;
+		text-indent:0px;
+		text-decoration:none;
+		margin-top: 0px;
+	}
+
+
+								/*
+								= = = = = = = = = = = = = =
+								HOME PAGE STYLE
+								= = = = = = = = = = = = = =
+								*/
+
+
+/* 
+----------
+CONTAINERS STYLE
+----------
+*/
+
+
+
+
+			/*Nothing yet here. */
+
+
+
+
+
+/* 
+----
+TEXT STYLE
+----
+*/
+
+h1.heading	/*home*/
+
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:14px;
+		font-weight: bold;
+		color: #CC0052;
+		text-align:justify;
+		text-indent:12px;
+		text-decoration:none;
+	}
+
+h2.subheading	/*home*/
+
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:12px;
+		font-weight: normal;
+		color: #990033;
+		text-align:justify;
+		text-indent:15px;
+		text-decoration:none;
+	}
+
+p.date	/*home*/
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:11px;
 		font-weight: normal;
 		color:black;
 		text-align:justify;
-		text-indent:0px;
+		text-indent:10px;
 		text-decoration:none;
 	}
+
+p.address	/*home*/
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:11px;
+		font-weight: normal;
+		color:black;
+		text-align:center;
+		text-indent:9px;
+		text-decoration:none;
+	}
+
+p.gen	/*home*/
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:11px;
+		font-weight: normal;
+		color:black;
+		text-align:justify;
+		text-indent:10px;
+		text-decoration:none;
+	}
+
+
 
