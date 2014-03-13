@@ -1,0 +1,645 @@
+*, *:before, *:after
+{
+-moz-box-sizing: border-box; -webkit-box-sizing;
+}
+
+									/*
+									= = = = = = = = = = = = = =
+									ALL PAGES TEMPLATE
+									= = = = = = = = = = = = = =
+									*/
+
+body {
+width:99%;
+margin:0 auto;
+border:none;
+background-color: #808080;
+}
+
+/* 
+----------
+CONTAINERS STYLE
+----------
+*/
+
+.header
+{
+	margin:auto;
+	width:99%;
+	background-color: #808080;
+	padding: 10px;
+	border: none;
+	;
+}
+
+.navigation
+{
+	margin: auto;
+	width: 100%;
+	background-color: #808080;
+	border: none;
+	clear: both;
+	padding-top: 3px;
+}
+
+.home 
+{
+	margin:auto;
+	width:13%;
+	background-color: #D0D0D0;
+	border:none;
+	float:left;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	padding-left: 3px;
+}
+
+.about 
+{
+	margin:auto;
+	width:13%;
+	background-color: #D0D0D0;
+	border:none;
+	float:left;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	padding-left: 3px;
+}
+
+.schedule
+{
+	margin:auto;
+	width:19%;
+	background-color: #D0D0D0;
+	border: none;
+	float:left;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	padding-left: 3px;
+}
+
+.sessions
+{
+	margin:auto;
+	width:18%;
+	background-color: #D0D0D0;
+	border:none;
+	float: left;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	padding-left: 3px;
+}
+
+.speakers
+{
+	margin:auto;
+	width:18%;
+	background-color: #D0D0D0;
+	border:none;
+	float: left;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	padding-left: 3px;
+}
+
+.videos
+{
+	margin: auto;
+	width: 13%;
+	background-color: #D0D0D0;
+	border: none;
+	float: left;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.content
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.footer
+{
+	margin:auto;
+	width:99%;
+	background-color: #808080;
+	border:none;
+	clear: both;
+}
+
+/* 
+----
+TEXT STYLE
+----
+*/
+
+a.nav	/*all - the navigation*/
+
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:12px;
+		font-weight: normal;
+		color: #990033;
+		text-align:center;
+		text-indent:0px;
+		text-decoration:none;
+	}
+
+p.add1	/*all*/
+
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:11px;
+		font-weight: normal;
+		color: #F8F8F8;
+		text-align:center;
+		text-indent:0px;
+		text-decoration:none;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		padding-top: 10px;
+	}
+
+p.add2	/*all*/
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:11px;
+		font-weight: normal;
+		color: #F8F8F8;
+		text-align:center;
+		text-indent:0px;
+		text-decoration:none;
+		margin-top: 0px;
+	}
+
+
+								/*
+								= = = = = = = = = = = = = =
+								HOME PAGE STYLE
+								= = = = = = = = = = = = = =
+								*/
+
+
+/* 
+----------
+CONTAINERS STYLE
+----------
+*/
+
+
+
+
+			/*Nothing yet here. */
+
+
+
+
+
+/* 
+----
+TEXT STYLE
+----
+*/
+
+h1.heading	/*home*/
+
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:14px;
+		font-weight: bold;
+		color: #CC0052;
+		text-align:justify;
+		text-indent:12px;
+		text-decoration:none;
+	}
+
+h2.subheading	/*home*/
+
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:12px;
+		font-weight: normal;
+		color: #990033;
+		text-align:justify;
+		text-indent:15px;
+		text-decoration:none;
+	}
+
+p.date	/*home*/
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:11px;
+		font-weight: normal;
+		color:black;
+		text-align:justify;
+		text-indent:10px;
+		text-decoration:none;
+	}
+
+p.address	/*home*/
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:11px;
+		font-weight: normal;
+		color:black;
+		text-align:center;
+		text-indent:9px;
+		text-decoration:none;
+	}
+
+p.hom	/*home*/
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:11px;
+		font-weight: normal;
+		color:black;
+		text-align:justify;
+		text-indent:10px;
+		text-decoration:none;
+		clear:both;
+	}
+
+
+/*
+								= = = = = = = = = = = = = =
+								ABOUT PAGE STYLE
+								= = = = = = = = = = = = = =
+								*/
+
+
+/* 
+----------
+CONTAINERS STYLE
+----------
+*/
+
+
+.conference
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.date
+{
+	margin: auto;
+	width: 48%;
+	background-color: #F0F0F0;
+	border: none;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	float:left;
+}
+
+.location
+{
+	margin: auto;
+	width: 48%;
+	background-color: #F0F0F0;
+	border: none;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	float:right;
+}
+
+.map
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.directions
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.subway
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.bus
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.path
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.car
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+/* 
+----
+TEXT STYLE
+----
+*/
+
+h1.abo	/*about*/
+
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:14px;
+		font-weight: bold;
+		color: purple;
+		text-align:justify;
+		text-indent:12px;
+		text-decoration:none;
+	}
+
+h2.abo	/*about*/
+
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:12px;
+		font-weight: normal;
+		color: #990033;
+		text-align:justify;
+		text-indent:15px;
+		text-decoration:none;
+	}
+	
+h3.abo	/*about*/
+
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:12px;
+		font-weight: bold;
+		color: black;
+		text-align:justify;
+		text-indent:15px;
+		text-decoration:none;
+	}
+
+p.abo	/*about*/
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:13px;
+		font-weight: normal;
+		color:black;
+		text-align:justify;
+		text-indent:10px;
+		text-decoration:none;
+		clear:both;
+	}
+	
+	
+								/*
+								= = = = = = = = = = = = = =
+								SESSIONS PAGE STYLE
+								= = = = = = = = = = = = = =
+								*/
+
+
+/* 
+----------
+CONTAINERS STYLE
+----------
+*/
+
+
+.cw
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.cws
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.fa
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.fas
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.pa
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.pas
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.ma
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.mas
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+/* 
+----
+TEXT STYLE
+----
+*/
+
+
+h1.ses	/*sessions*/
+
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:14px;
+		font-weight: bold;
+		color: purple;
+		text-align:justify;
+		text-indent:12px;
+		text-decoration:none;
+	}
+
+h2.ses	/*sessions*/
+
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:12px;
+		font-weight: normal;
+		color: #990033;
+		text-align:justify;
+		text-indent:15px;
+		text-decoration:none;
+	}
+	
+h3.ses	/*sessions*/
+
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:12px;
+		font-weight: normal;
+		color: #990033;
+		text-align:justify;
+		text-indent:15px;
+		text-decoration:none;
+	}
+
+p.ses	/*sessions*/
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:13px;
+		font-weight: normal;
+		color:black;
+		text-align:justify;
+		text-indent:10px;
+		text-decoration:none;
+		clear:both;
+	}
+	
+p.pres	/*sessions*/
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:13px;
+		font-weight: normal;
+		color:black;
+		text-align:justify;
+		text-indent:10px;
+		text-decoration:none;
+		clear:both;
+	}
+
+
+
