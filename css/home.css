@@ -35,8 +35,8 @@ CONTAINERS STYLE
 .navigation
 {
 	margin:auto;
-	width:99%;
-	background-color: #D0D0D0;
+	width:100%;
+	background-color: #808080;
 	border: none;
 	clear: both;
 	padding-top: 3px;
@@ -57,7 +57,7 @@ CONTAINERS STYLE
 .schedule
 {
 	margin:auto;
-	width:23%;
+	width:21%;
 	background-color: #D0D0D0;
 	border: none;
 	float:left;
@@ -69,7 +69,7 @@ CONTAINERS STYLE
 .sessions
 {
 	margin:auto;
-	width:23%;
+	width:21%;
 	background-color: #D0D0D0;
 	border:none;
 	float: left;
@@ -81,7 +81,7 @@ CONTAINERS STYLE
 .speakers
 {
 	margin:auto;
-	width:23%;
+	width:21%;
 	background-color: #D0D0D0;
 	border:none;
 	float: left;
@@ -92,23 +92,23 @@ CONTAINERS STYLE
 
 .videos
 {
-	margin:auto;
-	width:16%;
+	margin: auto;
+	width: 15%;
 	background-color: #D0D0D0;
-	border:none;
+	border: none;
 	float: left;
 	padding-top: 3px;
 	padding-bottom: 5px;
 	padding-left: 3px;
-	padding-right: 15px;
+	padding-right: 3px;
 }
 
 .content
 {
-	margin:auto;
-	width:99%;
+	margin: auto;
+	width: 99%;
 	background-color: #F0F0F0;
-	border:none;
+	border: none;
 	clear: both;
 	padding-left: 7px;
 	padding-right: 7px;
