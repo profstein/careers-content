@@ -45,7 +45,7 @@ CONTAINERS STYLE
 .navleft 
 {
 	margin:auto;
-	width:50%;
+	width:49%;
 	background-color: #808080;
 	border: none;
 	float:left;
@@ -57,7 +57,7 @@ CONTAINERS STYLE
 .navright
 {
 	margin:auto;
-	width:50%;
+	width:49%;
 	background-color: #808080;
 	border: none;
 	float:right;
@@ -107,6 +107,15 @@ CONTAINERS STYLE
 }
 
 .footer
+{
+	margin:auto;
+	width:99%;
+	background-color: #808080;
+	border:none;
+	clear: both;
+}
+
+.f_address
 {
 	margin:auto;
 	width:99%;
@@ -746,7 +755,7 @@ p.pres	/*sessions*/
 
 								/*
 								= = = = = = = = = = = = = =
-								SESSIONS PAGE STYLE
+								VIDEOS PAGE STYLE
 								= = = = = = = = = = = = = =
 								*/
 
@@ -757,7 +766,16 @@ CONTAINERS STYLE
 ----------
 */
 
+.iframe
+{
+	margin: auto;
+	width: 95%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 5px;
 
+}
 
 
 /* 
