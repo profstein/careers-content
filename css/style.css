@@ -220,7 +220,21 @@ p.add2	/*all*/
 		line-height: 15px;
 	}
 
+img.leftspeaker
+{
+	float:left;
+	width:33%;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
 
+img.rightspeaker
+{
+	float: right;
+	width: 32%;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
 
 
 								/*
@@ -252,61 +266,70 @@ TEXT STYLE
 */
 
 h1.heading	/*home*/
-
 	{	
-		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
-		font-size:14px;
+		font-family: Century Gothic, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:20px;
 		font-weight: bold;
-		color: #CC0052;
-		text-align:justify;
-		text-indent:12px;
+		color: purple;
+		text-align: left;
+		text-indent: 10px;
 		text-decoration:none;
+		margin: 2px;
+		margin-top: 15px;
 	}
 
 h2.subheading	/*home*/
-
 	{	
-		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
-		font-size:12px;
+		font-family: Century Gothic, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:14px;
 		font-weight: normal;
 		color: #990033;
 		text-align:justify;
-		text-indent:15px;
+		text-indent: 0px;
 		text-decoration:none;
+		margin: 10px;
 	}
 
 p.date	/*home*/
 	{	
-		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
-		font-size:11px;
+		font-family: Helvetica Neue, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:13px;
 		font-weight: normal;
 		color:black;
-		text-align:justify;
-		text-indent:10px;
+		text-align: left;
+		text-indent: 0px;
 		text-decoration:none;
+		clear:both;
+		margin: 10px;
+		line-height: 17px;
 	}
 
 p.address	/*home*/
 	{	
-		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
-		font-size:11px;
+		font-family: Helvetica Neue, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:13px;
 		font-weight: normal;
 		color:black;
 		text-align:center;
-		text-indent:9px;
+		text-indent: 0px;
 		text-decoration:none;
+		clear:both;
+		margin: 10px;
+		line-height: 17px;
 	}
 
-p.hom	/*home*/
+p.info	/*home*/
 	{	
 		font-family: Helvetica Neue, Trebuchet MS, Myriad Pro, Arial, Verdana;
-		font-size:12px;
+		font-size:13px;
 		font-weight: normal;
 		color:black;
 		text-align:justify;
-		text-indent:10px;
+		text-indent: 0px;
 		text-decoration:none;
 		clear:both;
+		margin: 10px;
+		line-height: 17px;
 	}
 
 

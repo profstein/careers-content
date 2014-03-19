@@ -7,7 +7,7 @@ body {
 width:100%;
 margin:0 auto;
 border:none;
-background-color: #E0E0E0;
+background-color: grey;
 }
 
 
@@ -143,8 +143,8 @@ h1.ses	/*sessions*/
 		font-size:20px;
 		font-weight: bold;
 		color: purple;
-		text-align:justify;
-		text-indent:30px;
+		text-align:center;
+		text-indent:0px;
 		text-decoration:none;
 		margin: 2px;
 	}
