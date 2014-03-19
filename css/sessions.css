@@ -4,82 +4,199 @@
 }
 
 body {
-width:96%;
+width:100%;
 margin:0 auto;
-border:1px solid #666;
+border:none;
 background-color: #E0E0E0;
 }
 
-.track{
-	width:86%;
-	background-color: #E0E0E0;
-	padding: 10px
-	;
+
+/*
+								= = = = = = = = = = = = = =
+								SESSIONS PAGE STYLE
+								= = = = = = = = = = = = = =
+								*/
+
+
+/* 
+----------
+CONTAINERS STYLE
+----------
+*/
+
+
+.cw
+{
+	margin: 1px;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
-.session {
-margin:auto;
-width:86%;
-background-color:red;
-;
+.cws
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
-h1
+.fa
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.fas
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.pa
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.pas
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.ma
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.mas
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+/* 
+----
+TEXT STYLE
+----
+*/
+
+
+h1.ses	/*sessions*/
 
 	{	
-		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
-		font-size:30px;
-		font-weight: normal;
-		color:black;
+		font-family: Century Gothic, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:20px;
+		font-weight: bold;
+		color: purple;
 		text-align:justify;
-		text-indent:0px;
+		text-indent:30px;
 		text-decoration:none;
+		margin: 2px;
 	}
 
-h2
+h2.ses	/*sessions*/
 
 	{	
-		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
-		font-size:25px;
-		font-weight: normal;
-		color:black;
+		font-family: Century Gothic, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:16px;
+		font-weight: bold;
+		color: #990033;
 		text-align:justify;
-		text-indent:0px;
+		text-indent: 5px;
 		text-decoration:none;
-	}
-
-h3
-
-	{	
-		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
-		font-size:23px;
-		font-weight: normal;
-		color:black;
-		text-align:justify;
-		text-indent:0px;
-		text-decoration:none;
+		margin: 7px;
 	}
 	
-p
+h3.ses	/*sessions*/
+
 	{	
-		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
-		font-size:16px;
+		font-family: Century Gothic, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:14px;
+		font-weight: normal;
+		color: #990033;
+		text-align:justify;
+		text-indent: 5px;
+		text-decoration:none;
+		margin: 5px;
+	}
+
+p.ses	/*sessions*/
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:13px;
 		font-weight: normal;
 		color:black;
 		text-align:justify;
-		text-indent:0px;
+		text-indent: 0px;
 		text-decoration:none;
+		clear:both;
+		margin: 10px;
 	}
-
-p.presenter
-
+	
+p.pres	/*sessions*/
 	{	
-		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
-		font-size:18px;
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:13px;
 		font-weight: normal;
 		color:black;
 		text-align:justify;
-		text-indent:0px;
+		text-indent: 0px;
 		text-decoration:none;
+		margin: 10px;
+		clear:both;
 	}
-

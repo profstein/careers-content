@@ -4,203 +4,229 @@
 }
 
 body {
-width:96%;
+width:100%;
 margin:0 auto;
-border:1px solid #000000;
+border:none;
 background-color: grey;
 }
 
+								/*
+								= = = = = = = = = = = = = =
+								ABOUT PAGE STYLE
+								= = = = = = = = = = = = = =
+								*/
+
+
+/* 
+----------
+CONTAINERS STYLE
+----------
+*/
+
+
 .conference
 {
-	margin:auto;
-	width:90%;
-	background-color: pink;
-	padding: 10px;
-	border:1px solid #000000;
-	;
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
 .date
 {
-	margin:auto;
-	width:90%;
-	background-color:green;
-	border:1px solid #000000;
+	margin: auto;
+	width: 100%;
+	background-color: #F0F0F0;
+	border: none;
+	padding-left: 2px;
+	padding-right: 7px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	float:left;
 }
 
-.location 
+.location
 {
-	margin:auto;
-	width:90%;
-	background-color:red;
-	border:1px solid #000000;
+	margin: auto;
+	width: 100%;
+	background-color: #F0F0F0;
+	border: none;
+	padding-left: 7px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	float:right;
 }
 
-.map 
+.map
 {
-	margin:auto;
-	width:90%;
-	background-color:purple;
-	border:1px solid #000000;
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
-.directions 
+.directions
 {
-	margin:auto;
-	width:90%;
-	background-color:orange;
-	border:1px solid #000000;
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
-.transport
+.subway
 {
-	margin:auto;
-	width:98%;
-	background-color:navy;
-	border:1px solid #000000;
-}
-
-.commute
-{
-	margin:auto;
-	width:98%;
-	background-color:purple;
-	border:1px solid #000000;
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
 .bus
 {
-	margin:auto;
-	width:98%;
-	background-color:pink;
-	border:1px solid #000000;
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
 .path
 {
-	margin:auto;
-	width:98%;
-	background-color:yellow;
-	border:1px solid #000000;
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
 .car
 {
-	margin:auto;
-	width:98%;
-	background-color:grey;
-	border:1px solid #000000;
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
-/*
-	#header
-		{
-		width: 955.5px; 
-		height:105px;  
-		background-color: #006bb7;
-		}
-
-		h1.title 
-				{
-				margin: 0px; 
-				border-width: 0px; 
-				padding-top: 7px; 
-				padding-left: 30px; 
-				}
-	#navigation	
-	{ 
-	width: 955.5px; 
-	height:52px;	 
-	background-color: #f79239; 
-	}
-		a.mmp 
-		{
-		margin: 0px; 
-		border-width: 0px; 
-		padding-top: 5px; 
-		padding-left: 250px; 
-		}
-
-		a.vat 
-			{
-			margin: 0px; 
-			border-width: 0px; 
-			padding-top: 5px; 
-			padding-right: 300px; 
-			float:right;
-			}
-	#logo 		
-			{
-			width: 344.5px; height: 157px; background-color: #f79239; float:right; }
-	#logoh1 	{ width: 344.5px; height: 105px; background-color: #006bb7; float:right; }
-	#logoh2 	{ width: 344.5px; height: 52px;  background-color: #f79239; float:right; }
-	#collage 	{ width: 188.5px; height:611px;  background-color: #c5c6c8; float:left; }
-	#mainContent{ width:1111.5px; height:494px;  background-color: #c5c6c8; float:right; }
-			h2 	{margin: 0px; border-width: 0px; padding-top: 7px; padding-left: 50px; padding-right: 50px;}
-			p 	{margin: 0px; border-width: 0px; padding-top: 7px; padding-left: 50px; padding-right: 50px;}
-			ul	{margin: 0px; border-width: 0px; padding-top: 7px; padding-left: 150px; padding-right: 50px;}
-	#footer 	{ width:1111.5px; height:123.5px; background-color: #ff9639; float:right;}
-	#container 	{ width:1300px;   clear:both;    margin: 0 auto; }
+/* 
+----
+TEXT STYLE
+----
 */
 
-body		{ background-color: grey; }
-
-h1
-
+h1.abo	/*about*/
 	{	
-		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
-		font-size:30px;
-		font-weight: normal;
-		color:blue;
-		text-align:justify;
-		text-indent:0px;
+		font-family: Century Gothic, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:20px;
+		font-weight: bold;
+		color: purple;
+		text-align: left;
+		text-indent: 10px;
 		text-decoration:none;
+		margin: 2px;
+		margin-top: 15px;
 	}
 
-h2
+h2.abo	/*about*/
 
 	{	
-		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
-		font-size:25px;
+		font-family: Century Gothic, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:14px;
 		font-weight: normal;
-		color:green;
+		color: #990033;
 		text-align:justify;
-		text-indent:0px;
+		text-indent: 0px;
 		text-decoration:none;
-	}
-
-h3
-
-	{	
-		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
-		font-size:23px;
-		font-weight: normal;
-		color:yellow;
-		text-align:justify;
-		text-indent:0px;
-		text-decoration:none;
+		margin: 10px;
 	}
 	
-p
+h3.abo	/*about*/
+
 	{	
-		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
-		font-size:16px;
+		font-family: Helvetica Neue, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size: 12px;
+		font-weight: bold;
+		color: black;
+		text-align:justify;
+		text-indent: 0px;
+		text-decoration:none;
+		margin: 10px;
+	}
+
+p.abo	/*about*/
+	{	
+		font-family: Helvetica Neue, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:13px;
 		font-weight: normal;
 		color:black;
 		text-align:justify;
-		text-indent:0px;
+		text-indent: 0px;
 		text-decoration:none;
+		clear:both;
+		margin: 10px;
+		line-height: 17px;
 	}
 
-p.presenter
 
+p.abodate	/*about*/
 	{	
-		font-family: Myriad Pro, Trebuchet MS, Tahoma, Arial, Verdana;
-		font-size:18px;
+		font-family: Helvetica Neue, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:13px;
 		font-weight: normal;
 		color:black;
-		text-align:justify;
-		text-indent:0px;
+		text-align:center;
+		text-indent:10px;
 		text-decoration:none;
+		clear:both;
+		margin: 10px;
+		line-height: 17px;
 	}
 
+
+p.aboloc	/*about*/
+	{	
+		font-family: Helvetica Neue, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:13px;
+		font-weight: normal;
+		color:black;
+		text-align:center;
+		text-indent:10px;
+		text-decoration:none;
+		clear:both;
+		margin: 10px;
+		line-height: 17px;
+	}
+	
