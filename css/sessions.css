@@ -1,0 +1,202 @@
+*, *:before, *:after
+{
+-moz-box-sizing: border-box; -webkit-box-sizing;
+}
+
+body {
+width:100%;
+margin:0 auto;
+border:none;
+background-color: grey;
+}
+
+
+/*
+								= = = = = = = = = = = = = =
+								SESSIONS PAGE STYLE
+								= = = = = = = = = = = = = =
+								*/
+
+
+/* 
+----------
+CONTAINERS STYLE
+----------
+*/
+
+
+.cw
+{
+	margin: 1px;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.cws
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.fa
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.fas
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.pa
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.pas
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.ma
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.mas
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+/* 
+----
+TEXT STYLE
+----
+*/
+
+
+h1.ses	/*sessions*/
+
+	{	
+		font-family: Century Gothic, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:20px;
+		font-weight: bold;
+		color: purple;
+		text-align:center;
+		text-indent:0px;
+		text-decoration:none;
+		margin: 2px;
+	}
+
+h2.ses	/*sessions*/
+
+	{	
+		font-family: Century Gothic, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:16px;
+		font-weight: bold;
+		color: #990033;
+		text-align:justify;
+		text-indent: 5px;
+		text-decoration:none;
+		margin: 7px;
+	}
+	
+h3.ses	/*sessions*/
+
+	{	
+		font-family: Century Gothic, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:14px;
+		font-weight: normal;
+		color: #990033;
+		text-align:justify;
+		text-indent: 5px;
+		text-decoration:none;
+		margin: 5px;
+	}
+
+p.ses	/*sessions*/
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:13px;
+		font-weight: normal;
+		color:black;
+		text-align:justify;
+		text-indent: 0px;
+		text-decoration:none;
+		clear:both;
+		margin: 10px;
+	}
+	
+p.pres	/*sessions*/
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:13px;
+		font-weight: normal;
+		color:black;
+		text-align:justify;
+		text-indent: 0px;
+		text-decoration:none;
+		margin: 10px;
+		clear:both;
+	}

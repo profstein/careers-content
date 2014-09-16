@@ -1,0 +1,508 @@
+*, *:before, *:after
+{
+-moz-box-sizing: border-box; -webkit-box-sizing;
+}
+
+									/*
+									= = = = = = = = = = = = = =
+									ALL PAGES TEMPLATE
+									= = = = = = = = = = = = = =
+									*/
+
+body {
+width:99%;
+margin:0 auto;
+border:none;
+background-color: #808080;
+}
+
+/* 
+----------
+CONTAINERS STYLE
+----------
+*/
+
+.header
+{
+	margin:auto;
+	width:99%;
+	background-color: #808080;
+	padding: 10px;
+	border: none;
+	;
+}
+
+.navigation
+{
+	margin: auto;
+	width: 100%;
+	background-color: #808080;
+	border: none;
+	clear: both;
+	padding-top: 3px;
+}
+
+.navleft 
+{
+	margin:auto;
+	width:49%;
+	background-color: #808080;
+	border: none;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+}
+
+.navright
+{
+	margin:auto;
+	width:49%;
+	background-color: #808080;
+	border: none;
+	float: right;
+	padding-top: 20px;
+	padding-bottom: 2px;
+	padding-left: 1px;
+}
+
+.menu
+{
+	margin:auto;
+	width:45%;
+	background-color: #808080;
+	border: none;
+	float: right;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 1px;
+	padding-right: 20px;
+}
+
+.top
+{
+	margin:auto;
+	width:98%;
+	background-color: #808080;
+	border: none;
+	float: right;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	clear: both;
+}
+
+
+.content
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.footer
+{
+	margin:auto;
+	width:99%;
+	background-color: #808080;
+	border:none;
+	clear: both;
+}
+
+.f_address
+{
+	margin:auto;
+	width:99%;
+	background-color: #808080;
+	border:none;
+	clear: both;
+}
+
+/* 
+----
+TEXT STYLE
+----
+*/
+
+h1.title
+	{	
+		font-family: Century Gothic, Helvetica Neue, Tahoma, Trebuchet MS, Arial, Verdana;
+		font-size:20px;
+		font-weight: normal;
+		color: #808080;
+		text-align: left;
+		text-indent: 0px;
+		text-decoration:none;
+	}
+a.nav	/*all - the navigation*/
+
+	{	
+		font-family: Century Gothic, Helvetica Neue, Tahoma, Trebuchet MS, Arial, Verdana;
+		font-size:22px;
+		font-weight: normal;
+		color: white;
+		text-align: left;
+		padding-left: 0px;
+		text-decoration:none;
+		list-style-type: none;
+		margin-left: 25px;
+	}
+
+ul	/*all*/
+	{	
+		font-family: Century Gothic, Helvetica Neue, Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:13px;
+		font-weight: normal;
+		color: white;
+		text-align:left;
+		padding-left: 20px;
+		text-decoration:none;
+		line-height: 20px;
+	}
+
+
+a.menu	/*all - the navigation*/
+
+	{	
+		font-family: Century Gothic, Helvetica Neue, Tahoma, Trebuchet MS, Arial, Verdana;
+		font-size:24px;
+		font-weight: normal;
+		color: white;
+		text-align: right;
+		text-indent:0px;
+		text-decoration:none;
+	}
+
+a.top	/*all - the navigation*/
+
+	{	
+		font-family: Century Gothic, Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:16px;
+		font-weight: normal;
+		color: white;
+		text-align: center;
+		text-indent:0px;
+		text-decoration:none;
+		margin: 15px;
+	}
+
+p.add1	/*all*/
+
+	{	
+		font-family: Helvetica Neue, Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:11px;
+		font-weight: bold;
+		color: #303030 ;
+		text-align:center;
+		text-indent:0px;
+		text-decoration:none;
+		margin-top: 20px;
+		padding-top: 30px;
+		line-height: 15px;
+	}
+
+p.add2	/*all*/
+	{	
+		font-family: Helvetica Neue, Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:11px;
+		font-weight: normal;
+		color: #303030 ;
+		text-align:center;
+		text-indent:0px;
+		text-decoration:none;
+		margin-top: 0px;
+		line-height: 15px;
+	}
+
+img.leftspeaker
+{
+	float:left;
+	width:33%;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+img.rightspeaker
+{
+	float: right;
+	width: 32%;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+
+								/*
+								= = = = = = = = = = = = = =
+								HOME PAGE STYLE
+								= = = = = = = = = = = = = =
+								*/
+
+
+/* 
+----------
+CONTAINERS STYLE
+----------
+*/
+
+
+
+
+			/*Nothing yet here. */
+
+
+
+
+
+/* 
+----
+TEXT STYLE
+----
+*/
+
+h1.heading	/*home*/
+	{	
+		font-family: Century Gothic, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:20px;
+		font-weight: bold;
+		color: purple;
+		text-align: left;
+		text-indent: 10px;
+		text-decoration:none;
+		margin: 2px;
+		margin-top: 15px;
+	}
+
+h2.subheading	/*home*/
+	{	
+		font-family: Century Gothic, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:14px;
+		font-weight: normal;
+		color: #990033;
+		text-align:justify;
+		text-indent: 0px;
+		text-decoration:none;
+		margin: 10px;
+	}
+
+p.date	/*home*/
+	{	
+		font-family: Helvetica Neue, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:13px;
+		font-weight: normal;
+		color:black;
+		text-align: left;
+		text-indent: 0px;
+		text-decoration:none;
+		clear:both;
+		margin: 10px;
+		line-height: 17px;
+	}
+
+p.address	/*home*/
+	{	
+		font-family: Helvetica Neue, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:13px;
+		font-weight: normal;
+		color:black;
+		text-align:center;
+		text-indent: 0px;
+		text-decoration:none;
+		clear:both;
+		margin: 10px;
+		line-height: 17px;
+	}
+
+p.info	/*home*/
+	{	
+		font-family: Helvetica Neue, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:13px;
+		font-weight: normal;
+		color:black;
+		text-align:justify;
+		text-indent: 0px;
+		text-decoration:none;
+		clear:both;
+		margin: 10px;
+		line-height: 17px;
+	}
+
+
+
+/*
+								= = = = = = = = = = = = = =
+								SPEAKERS PAGE STYLE
+								= = = = = = = = = = = = = =
+								*/
+
+
+/* 
+----------
+CONTAINERS STYLE
+----------
+*/
+
+
+
+
+			/*Nothing yet here. */
+
+
+
+
+
+/* 
+----
+TEXT STYLE
+----
+*/
+
+h1.spe	/*home*/
+
+	{	
+		font-family: Tahoma, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:14px;
+		font-weight: bold;
+		color: #CC0052;
+		text-align:left;
+		text-indent:12px;
+		text-decoration:none;
+	}
+
+
+p.spe	/*home*/
+	{	
+		font-family: Helvetica Neue, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:12px;
+		font-weight: normal;
+		color:black;
+		text-align:justify;
+		text-indent:10px;
+		text-decoration:none;
+		clear:both;
+	}
+
+
+/*
+								= = = = = = = = = = = = = =
+								SCHEDULE PAGE STYLE
+								= = = = = = = = = = = = = =
+								*/
+
+
+/* 
+----------
+CONTAINERS STYLE
+----------
+*/
+
+
+
+
+/* 
+----
+TEXT STYLE
+----
+*/
+
+h1.sch
+
+	{	
+		font-family: Century Gothic, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:18px;
+		font-weight: bold;
+		color: purple;
+		text-align:justify;
+		text-indent:12px;
+		text-decoration:none;
+	}
+
+h2.sch
+
+	{	
+		font-family: Century Gothic, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:16px;
+		font-weight: normal;
+		color: #990033;
+		text-align:justify;
+		text-indent:15px;
+		text-decoration:none;
+	}
+
+p.sch
+		
+	{	
+		font-family: Helvetica Neue, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:13px;
+		font-weight: normal;
+		color:black;
+		text-align:justify;
+		padding-left: 20px;
+		text-indent:0px;
+		text-decoration:none;
+		clear:both;
+	}		
+
+								
+
+								/*
+								= = = = = = = = = = = = = =
+								VIDEOS PAGE STYLE
+								= = = = = = = = = = = = = =
+								*/
+
+
+/* 
+----------
+CONTAINERS STYLE
+----------
+*/
+
+.iframe
+{
+	margin: auto;
+	width: 95%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 5px;
+
+}
+
+
+/* 
+----------
+TEXT STYLE
+----------
+*/
+
+h1.vid
+
+	{	
+		font-family: Century Gothic, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:18px;
+		font-weight: bold;
+		color: purple;
+		text-align:justify;
+		text-indent:12px;
+		text-decoration:none;
+	}
+
+p.vid
+
+	{	
+		font-family: Helvetica Neue, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:13px;
+		font-weight: normal;
+		color:black;
+		text-align:justify;
+		padding-left: 20px;
+		text-indent:0px;
+		text-decoration:none;
+		clear:both;
+	}	

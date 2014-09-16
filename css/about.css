@@ -1,0 +1,232 @@
+*, *:before, *:after
+{
+-moz-box-sizing: border-box; -webkit-box-sizing;
+}
+
+body {
+width:100%;
+margin:0 auto;
+border:none;
+background-color: grey;
+}
+
+								/*
+								= = = = = = = = = = = = = =
+								ABOUT PAGE STYLE
+								= = = = = = = = = = = = = =
+								*/
+
+
+/* 
+----------
+CONTAINERS STYLE
+----------
+*/
+
+
+.conference
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.date
+{
+	margin: auto;
+	width: 100%;
+	background-color: #F0F0F0;
+	border: none;
+	padding-left: 2px;
+	padding-right: 7px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	float:left;
+}
+
+.location
+{
+	margin: auto;
+	width: 100%;
+	background-color: #F0F0F0;
+	border: none;
+	padding-left: 7px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	float:right;
+}
+
+.map
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.directions
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.subway
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.bus
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.path
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.car
+{
+	margin: auto;
+	width: 99%;
+	background-color: #F0F0F0;
+	border: none;
+	clear: both;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+/* 
+----
+TEXT STYLE
+----
+*/
+
+h1.abo	/*about*/
+	{	
+		font-family: Century Gothic, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:20px;
+		font-weight: bold;
+		color: purple;
+		text-align: left;
+		text-indent: 10px;
+		text-decoration:none;
+		margin: 2px;
+		margin-top: 15px;
+	}
+
+h2.abo	/*about*/
+
+	{	
+		font-family: Century Gothic, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:14px;
+		font-weight: normal;
+		color: #990033;
+		text-align:justify;
+		text-indent: 0px;
+		text-decoration:none;
+		margin: 10px;
+	}
+	
+h3.abo	/*about*/
+
+	{	
+		font-family: Helvetica Neue, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size: 12px;
+		font-weight: bold;
+		color: black;
+		text-align:justify;
+		text-indent: 0px;
+		text-decoration:none;
+		margin: 10px;
+	}
+
+p.abo	/*about*/
+	{	
+		font-family: Helvetica Neue, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:13px;
+		font-weight: normal;
+		color:black;
+		text-align:justify;
+		text-indent: 0px;
+		text-decoration:none;
+		clear:both;
+		margin: 10px;
+		line-height: 17px;
+	}
+
+
+p.abodate	/*about*/
+	{	
+		font-family: Helvetica Neue, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:13px;
+		font-weight: normal;
+		color:black;
+		text-align:center;
+		text-indent:10px;
+		text-decoration:none;
+		clear:both;
+		margin: 10px;
+		line-height: 17px;
+	}
+
+
+p.aboloc	/*about*/
+	{	
+		font-family: Helvetica Neue, Trebuchet MS, Myriad Pro, Arial, Verdana;
+		font-size:13px;
+		font-weight: normal;
+		color:black;
+		text-align:center;
+		text-indent:10px;
+		text-decoration:none;
+		clear:both;
+		margin: 10px;
+		line-height: 17px;
+	}
+	
